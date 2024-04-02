@@ -35,7 +35,7 @@ const Bargraph = () => {
           </div>
         </div>
         <span style={{marginBottom:'10px', color:'gray', fontWeight:'300',fontSize:'14px'}}>Monthy Earning</span>
-        <BarChart width={700} height={250} data={data}>
+        <BarChart className='barChartMobile' width={700} height={250} data={data}>
           <XAxis dataKey='name' axisLine={false} tick={{ dy: 10 }} tickLine={false}/>
           <YAxis hide />
           <Bar dataKey='value' fill='#F2EFFF' radius={10} />
