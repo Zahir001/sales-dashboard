@@ -4,7 +4,7 @@ import React from 'react'
 const Card = ({ icon, title, price, percent, firstclasss, secondclass, thirdclass}) => {
   return (
     // iconCardCustom
-    <div>
+    
       <div className='cards'>
         <div className={firstclasss}>
           <span className={secondclass}>{icon}</span>
@@ -15,7 +15,6 @@ const Card = ({ icon, title, price, percent, firstclasss, secondclass, thirdclas
           <span className={thirdclass}>{percent}<span className='thismonthTitle'>this month</span></span>
         </div>
       </div>
-    </div>
   )
 }
 

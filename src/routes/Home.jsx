@@ -20,7 +20,7 @@ const Home = () => {
           <span>👋,</span>
         </div>
         <div className='inputField'>
-          <IoSearch className='searchIcon' />
+          <IoSearch className='searchIcon headerSearchIcon' />
           <input type="text" placeholder='Search' />
         </div>
       </div>

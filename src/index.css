@@ -247,12 +247,13 @@ h6 {
 
   .cardsParent {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 0.9fr);
     row-gap: 34px;
   }
 
   .graphParent {
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
   }
 
   .headText {
@@ -260,7 +261,33 @@ h6 {
   }
 
   .barChartMobile {
-    width: 484px !important;
+    width: 306px !important;
     height: 250px !important;
+  }
+
+  .app-container {
+    flex-direction: column;
+  }
+
+  .homeParentDiv {
+    background-color: #F5F6F8;
+    font-family: 'Inter';
+    width: 100%;
+    padding: 14px 14px 0px 14px;
+  }
+
+  .inputField .searchIcon {
+    position: relative;
+    left: 26px;
+    top: 1px;
+  }
+
+  .inputField .headerSearchIcon {
+    top: 28px;
+    left: 1px;
+  }
+
+  .productTitle h1 {
+    font-size: 14px;
   }
 }

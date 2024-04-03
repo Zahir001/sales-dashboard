@@ -80,15 +80,41 @@
 @media only screen and (max-width: 768px) {
   .productStocklistStyle {
     display: flex;
-    margin-right: 35px;
-    column-gap: 50px;
+    margin-right: 0px;
+    column-gap: 15px;
+    align-items: center;
   }
 
   .stocknameStyle {
     display: flex;
-    column-gap: 55px;
+    column-gap: 8px;
   }
-  .textMobileProduct{
+
+  .textMobileProduct {
     width: 55%;
+  }
+
+  .inputStyle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .customMobileStyle {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+  }
+
+  .productListImage h3 {
+    font-size: 14px;
+  }
+
+  .productListImage span {
+    font-size: 12px;
+  }
+
+  .productListImage figure {
+    width: 75px;
+    height: 48px;
   }
 }

@@ -15,7 +15,7 @@ const ProductSale = () => {
               <IoSearch className='searchIcon' />
               <input type="text" placeholder='Search' style={{background:'#FAFBFF'}}/>
             </div>
-            <div class="dropdown">
+            <div class="dropdown customMobileStyle">
               <button class="btn btn-class-style dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Last 30 days
               </button>
