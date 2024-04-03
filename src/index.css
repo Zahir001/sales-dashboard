@@ -261,7 +261,7 @@ h6 {
   }
 
   .barChartMobile {
-    width: 306px !important;
+    width: 251px !important;
     height: 250px !important;
   }
 
@@ -278,8 +278,8 @@ h6 {
 
   .inputField .searchIcon {
     position: relative;
-    left: 26px;
-    top: 1px;
+    left: 4px;
+    top: 27px;
   }
 
   .inputField .headerSearchIcon {
@@ -288,6 +288,15 @@ h6 {
   }
 
   .productTitle h1 {
-    font-size: 14px;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .figureTitleStyle h1 {
+    margin-top: 42px;
+  }
+
+  .inputField input {
+    width: 100%;
   }
 }
